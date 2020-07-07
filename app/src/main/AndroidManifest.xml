@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.maps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".Keeplogin"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_real"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_API_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dealer_detail"
+            android:label="hey"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".OTP_Verification" />
+        <activity android:name=".Pre_Otp_verification" />
+        <activity
+            android:name=".Privacy_policy"
+            android:label="@string/title_activity_privacy_policy"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Terms_and_conditions"
+            android:label="@string/title_activity_terms_and_conditions"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Joining_activity" />
+        <activity
+            android:name=".Remove_activity"
+            android:label="Aashray"
+            android:theme="@style/AppTheme"></activity>
+
+
+    </application>
+
+</manifest>

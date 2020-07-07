@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:showIn="navigation_view"
+android:alpha="0.5">
+<group android:id="@+id/group_feature"
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_recent"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/SignOut"
+        android:icon="@drawable/ic_action_signout"
+        android:title="Sign Out" />
+
+</group>
+<group android:id="@+id/group_settings"
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/privacy_policy_menu"
+        android:icon="@drawable/password"
+        android:title="Privacy Policy"
+        />
+
+    <item
+        android:id="@+id/Terms_and_conditions_menu"
+        android:icon="@drawable/terms_and_conditions"
+        android:title="Terms &amp; Conditions" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_action_help"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/join_us"
+        android:icon="@drawable/join"
+        android:title="Add Property" />
+
+</group>
+</menu>

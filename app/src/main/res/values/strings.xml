@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Aashray</string>
+    <string name="google_maps_API_key">AIzaSyC9a5jXySNz5lSBpPxs1RReS3QvYQNEihs</string>
+    <string name="Map_is_Ready">Map is Ready</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material"
+    </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="OK">OK</string>
+    <string name="NO_THANKS">NO THANKS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_nav_drawer">nav_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_image_upload">Image_upload</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="transition_pageviewer">transition_pageviewer</string>
+    <string name="Owner_name">Owner Name</string>
+    <string name="Charges">Charges(per month)</string>
+    <string name="IdealFor">Ideal For</string>
+    <string name="Phone">Phone Number</string>
+    <string name="description">Description</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="google_sign_up">SIGN UP WITH GOOGLE</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="Continue1">Continue</string>
+    <string name="call_now">CALL NOW</string>
+    <string name="charges_details"> Charges are per room per month and subjected to Change</string>
+    <string name="change_password"><u>Change Password</u></string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="title_activity_privacy_policy">Privacy Policy</string>
+    <string name="title_activity_terms_and_conditions">Terms and Conditions</string>
+    <string name="title_activity_help">Help</string>
+    <string name="phone_pranay"><u>+919834196490</u></string>
+    <string name="phone_pradnya"><u>+919049501357</u></string>
+    <string name="full_name">Full Name</string>
+    <string name="house_name">House name</string>
+    <string name="title_activity_remove_activity">Remove_activity</string>
+    <string name="Remove_string">1) Logout from this google account.</string>
+    <string name="terms_conditions"><u>T &amp; C </u></string>
+    <string name="email">Email</string>
+</resources>
